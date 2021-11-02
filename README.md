@@ -5,7 +5,7 @@ Script for installing applications on new device
 
 Use this script to setup new device with standard applications
 
-1. Install Chocolatey https://chocolatey.org/
+1. Install Chocolatey https://chocolatey.org/ or run commands from [installchoco](installchoco.ps1)
 2. Download script
 3. Run with powershell, might need to set execution privileges before running.
 
