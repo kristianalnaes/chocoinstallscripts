@@ -1,6 +1,8 @@
 # Set directory for installation - Chocolatey does not lock
 # down the directory if not the default
-$InstallDir='C:\ProgramData\chocoportable'
+
+# Change user-folder for a non-admin folder, and choco should install in user account, no admin priveleges required!
+$InstallDir='C:\USERFOLDER\chocoportable'
 $env:ChocolateyInstall="$InstallDir"
 
 # If your PowerShell Execution policy is restrictive, you may
