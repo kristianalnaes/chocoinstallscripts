@@ -19,8 +19,6 @@ git config --global user.name "Kristian Alnaes"
 git config --global user.email kristian.alnaes@pwc.com
 
 
-
-
 # Install CLI Tools
 ## Shell Utilities
 
@@ -79,6 +77,10 @@ cask 'imageoptim'
 cask 'postman'
 cask 'robo-3t'
 cask 'sourcetree'
+
+## Misc
+
+cask 'spotify'
 
 ##
 ## Some config for the macbook
